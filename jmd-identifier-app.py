@@ -7,7 +7,7 @@ from skimage.transform import resize
 import numpy as np
 import time
 
-
+# Import model
 dollar_model = keras.models.load_model('dollar-model')
 
 st.header("JMD Currency Identification App 🇯🇲 💵 💶 💴")
@@ -19,9 +19,9 @@ st.markdown("__*Powered by*__: _TensorFlow, Streamlit_")
 st.sidebar.title("Upload Image")
 st.sidebar.write("Please upload an image of a $500 or $1000 JMD bank note.")
 
-# Disabling warning
+# Disable warning
 st.set_option('deprecation.showfileUploaderEncoding', False)
-# Choose your own image
+# User image upload
 uploaded_file = st.sidebar.file_uploader("", type=['png', 'jpg', 'jpeg'])
 
 if uploaded_file is not None:
@@ -35,7 +35,6 @@ if uploaded_file is not None:
     img_array = keras.preprocessing.image.img_to_array(image)
     img_array = tf.expand_dims(img_array, 0)  # Create batch axis
 
-# For newline
 st.sidebar.write('\n')
 
 if st.sidebar.button("Click Here to Identify the Value of the Bank Note"):
