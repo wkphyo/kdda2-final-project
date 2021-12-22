@@ -2,7 +2,7 @@
 # Knowledge Discovery &amp; Data Analytics 2 Final Project Winter 2021
 
 ### 🇯🇲 JMD Bank Note Identification Project 💵 💶 💷
-***Done by:*** *Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo*
+***Done by:*** *Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo.*
 
 Model built using: TensorFlow  
 App built using: Streamlit 
