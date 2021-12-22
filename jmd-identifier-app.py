@@ -16,7 +16,7 @@ st.markdown(
     "__*Built by*__: _Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo._")
 st.markdown("__*Powered by*__: _TensorFlow, Streamlit_")
 
-logo = Image.open('jam-dolla-identifier.jpg')
+logo = Image.open('jam-dolla-identifier.JPG')
 show = st.image(logo, use_column_width=True)
 
 st.sidebar.title("Upload Image")
