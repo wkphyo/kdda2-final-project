@@ -9,7 +9,6 @@
 ### 🇯🇲 JMD Bank Note Identification Project 💵 💶 💷
 ***Done by:*** *Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo.*
 
-https://github.com/wkphyo/kdda2-final-project/blob/main/JAM_DOLLA_INDENTIFIER.JPG
 Model built using: TensorFlow  
 App built using: Streamlit 
 
