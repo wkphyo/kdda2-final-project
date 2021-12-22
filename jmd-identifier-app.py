@@ -13,7 +13,7 @@ dollar_model = keras.models.load_model('dollar-model')
 st.header("🇯🇲 JMD Bank Note Identification App 💵 💶 💷")
 st.write('\n')
 st.markdown(
-    "__*Built by*__: _Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo_")
+    "__*Built by*__: _Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo._")
 st.markdown("__*Powered by*__: _TensorFlow, Streamlit_")
 
 st.sidebar.title("Upload Image")
