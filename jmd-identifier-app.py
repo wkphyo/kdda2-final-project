@@ -32,7 +32,7 @@ if uploaded_file is not None:
     u_img = Image.open(uploaded_file)
     show.image(u_img, 'Uploaded Image', use_column_width=True)
     # Image Preprocessing
-    image = u_img.resize((180, 180))
+    image = u_img.resize((150, 150))
 
     img_array = keras.preprocessing.image.img_to_array(image)
     img_array = tf.expand_dims(img_array, 0)  # Create batch axis
@@ -54,8 +54,8 @@ if st.sidebar.button("☞ Click Here to Continue"):
             time.sleep(2)
             st.success('Done!')
 
-        st.markdown("__Algorithm Predicts:__")
+        st.markdown("__Our Model Predicts:__")
         st.write(
-            "This image is %.2f percent this and %.2f percent that."
+            "We believe this image is %.2f percent likely to be a $500 JMD note and %.2f percent likely to be $1000 JMD note."
             % (100 * (1 - score), 100 * score)
         )
