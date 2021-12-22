@@ -1,9 +1,15 @@
 ### kdda2-final-project
 # Knowledge Discovery &amp; Data Analytics 2 Final Project Winter 2021
 
+
+<p align="center">
+  <img  src="https://github.com/wkphyo/kdda2-final-project/blob/main/JAM_DOLLA_INDENTIFIER.JPG", width = "1200px" height = "300px"/>
+</p>
+
 ### 🇯🇲 JMD Bank Note Identification Project 💵 💶 💷
 ***Done by:*** *Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo.*
 
+https://github.com/wkphyo/kdda2-final-project/blob/main/JAM_DOLLA_INDENTIFIER.JPG
 Model built using: TensorFlow  
 App built using: Streamlit 
 
