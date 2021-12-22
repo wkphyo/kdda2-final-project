@@ -16,6 +16,9 @@ st.markdown(
     "__*Built by*__: _Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo._")
 st.markdown("__*Powered by*__: _TensorFlow, Streamlit_")
 
+logo = Image.open('jam-dolla-identifier.jpg')
+show = st.image(logo, use_column_width=True)
+
 st.sidebar.title("Upload Image")
 st.sidebar.write("Please upload an image of a $500 or $1000 JMD bank note.")
 
@@ -27,7 +30,6 @@ uploaded_file = st.sidebar.file_uploader("", type=['png', 'jpg', 'jpeg'])
 if uploaded_file is not None:
 
     u_img = Image.open(uploaded_file)
-    show = st.image(u_img, use_column_width=True)
     show.image(u_img, 'Uploaded Image', use_column_width=True)
     # Image Preprocessing
     image = u_img.resize((180, 180))
