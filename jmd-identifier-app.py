@@ -39,7 +39,7 @@ if uploaded_file is not None:
 
 st.sidebar.write('\n')
 
-if st.sidebar.button("Click Here to Identify the Value of the Bank Note"):
+if st.sidebar.button("☞ Click Here to Continue"):
 
     if uploaded_file is None:
 
