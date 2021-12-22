@@ -10,7 +10,7 @@ import time
 # Import model
 dollar_model = keras.models.load_model('dollar-model')
 
-st.header("🇯🇲 JMD Bank Note Identification App 💵 💶 💷")
+st.header("🇯🇲 JAM Dolla Identifier App 💵 💶 💷")
 st.write('\n')
 st.markdown(
     "__*Built by*__: _Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo._")
