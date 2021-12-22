@@ -7,4 +7,4 @@
 Model built using: TensorFlow  
 App built using: Streamlit 
 
-Objective: To train a machine learning model to correctly differentiate between a $500 and $1000 JMD bank note through image data.
+Objective: To train and deploy a machine learning model that can reliably differentiate between a $500 and $1000 JMD bank note through image data.
