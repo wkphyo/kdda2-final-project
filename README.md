@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img  src="https://github.com/wkphyo/kdda2-final-project/blob/main/JAM_DOLLA_INDENTIFIER.JPG", width = "1200px" height = "300px"/>
+  <img  src="https://github.com/wkphyo/kdda2-final-project/blob/main/JAM_DOLLA_INDENTIFIER.JPG", width = "600px" height = "300px"/>
 </p>
 
 ### 🇯🇲 JMD Bank Note Identification Project 💵 💶 💷
