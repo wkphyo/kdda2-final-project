@@ -6,7 +6,7 @@
   <img  src="https://github.com/wkphyo/kdda2-final-project/blob/main/jam-dolla-identifier.JPG", width = "600px" height = "300px"/>
 </p>
 
-### 🇯🇲 JMD Bank Note Identification Project 💵 💶 💷
+### 🇯🇲 JAM Dolla Identifier App 💵 💶 💷
 ***Done by:*** *Denecian Dennis, Elombe Calvert, Simon Lee, Clifton Lee, Win Phyo.*
 
 Model built using: TensorFlow  
