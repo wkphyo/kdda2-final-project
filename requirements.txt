@@ -7,6 +7,5 @@ Pillow
 scikit-image
 scikit_image
 h5py
-os
 cv2
 imghdr
